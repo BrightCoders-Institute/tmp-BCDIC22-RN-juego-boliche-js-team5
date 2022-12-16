@@ -1,0 +1,29 @@
+{
+  "name": "tmp-bcdic22-rn-juego-boliche-js-team5",
+  "version": "1.0.0",
+  "description": "![BrightCoders Logo](img/logo.png)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5/issues"
+  },
+  "homepage": "https://github.com/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.6.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "mocha": "^10.2.0"
+  }
+}
