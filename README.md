@@ -5,7 +5,7 @@
   - [Descripción de proyecto](#descripción-del-proyecto)
   - [Como instalar y usar el proyecto](#como-instalar-y-usar-el-proyecto)
   - [Créditos](#creditos)
-  - [Insignias de evaluadores de código](#insignias-de-evaluadores-de-codigo)
+  - [Insignias de evaluadores de código](#insignias-de-evaluadores-de-código)
 
 # Descripción del proyecto
     The game consists of 10 frames as shown above. In each frame the player has two opportunities to knock down 10 pins. The score for the frame is the total number of pins knocked down, plus bonuses for strikes and spares.
