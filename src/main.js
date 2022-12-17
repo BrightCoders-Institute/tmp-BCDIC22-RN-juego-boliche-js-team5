@@ -1,4 +1,4 @@
-const calcScore = (rolls) => {
+const pointsCount = (rolls) => {
   let score = 0
   let frameIndex = 0
   for (let frame = 0; frame < 10; frame++) {
@@ -20,4 +20,4 @@ const calcScore = (rolls) => {
   return score
 }
 
-export { calcScore }
+export { pointsCount }

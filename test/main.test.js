@@ -1,5 +1,5 @@
 import chai from 'chai'
-import { calcScore } from '../src/main.js'
+import { pointsCount } from '../src/main.js'
 
 const assert = chai.assert
 
@@ -8,15 +8,15 @@ describe('Scoring Bowling', function () {
   // eslint-disable-next-line no-undef
   it('All gutter balls -> 0', function () {
     const rolls = Array(20).fill(0)
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 0
     assert.equal(result, expected)
   })
 
-  // eslint-disable-next-line no-undef
+  // eslint-disable-next-line no-undefnp
   it('All single balls -> 20', function () {
     const rolls = Array(20).fill(1)
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 20
     assert.equal(result, expected)
   })
@@ -35,7 +35,7 @@ describe('Scoring Bowling', function () {
       0, 0,
       0, 0
     ]
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 17
     assert.equal(result, expected)
   })
@@ -54,7 +54,7 @@ describe('Scoring Bowling', function () {
       0, 0,
       7, 3, 8
     ]
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 18
     assert.equal(result, expected)
   })
@@ -73,7 +73,7 @@ describe('Scoring Bowling', function () {
       0, 0,
       0, 0
     ]
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 20
     assert.equal(result, expected)
   })
@@ -92,7 +92,7 @@ describe('Scoring Bowling', function () {
       0, 0,
       10, 10, 1
     ]
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 21
     assert.equal(result, expected)
   })
@@ -100,7 +100,7 @@ describe('Scoring Bowling', function () {
   // eslint-disable-next-line no-undef
   it('All strikes -> 300', function () {
     const rolls = Array(12).fill(10)
-    const result = calcScore(rolls)
+    const result = pointsCount(rolls)
     const expected = 300
     assert.equal(result, expected)
   })
