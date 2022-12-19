@@ -17,7 +17,7 @@ const pointsCount = (rolls) => {
       frameIndex = frameIndex + 2
     }
   }
-  
+
   return score
 }
 
