@@ -46,4 +46,4 @@ Integrantes del equipo del proyecto:
 | Analizador   | Calificación |
 | ------------- | ------------- |
 | Codacy   | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/5fb5d8e58c1f48f0bfcc30984761027d)](https://www.codacy.com/gh/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5&amp;utm_campaign=Badge_Grade) |
-| Codecov | [![codecov]( )  |
+| Codecov | [![codecov](https://codecov.io/gh/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5/branch/master/graph/badge.svg?token=BFH60TE5BB)](https://codecov.io/gh/BrightCoders-Institute/tmp-BCDIC22-RN-juego-boliche-js-team5)  |
