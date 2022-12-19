@@ -13,7 +13,7 @@ describe('Scoring Bowling', function () {
     assert.equal(result, expected)
   })
 
-  // eslint-disable-next-line no-undefnp
+  // eslint-disable-next-line no-undef
   it('All single balls -> 20', function () {
     const rolls = Array(20).fill(1)
     const result = pointsCount(rolls)
