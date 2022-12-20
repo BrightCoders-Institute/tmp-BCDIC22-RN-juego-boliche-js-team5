@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1671495265963" clover="3.2.0">
+  <project timestamp="1671495265963" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="20" coveredelements="20" complexity="0" loc="15" ncloc="15" packages="1" files="1" classes="1"/>
+    <file name="main.js" path="C:\Users\goku_\OneDrive\Documentos\GitHub\tmp-BCDIC22-RN-juego-boliche-js-team5\src\main.js">
+      <metrics statements="15" coveredstatements="15" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="7" type="stmt"/>
+      <line num="3" count="7" type="stmt"/>
+      <line num="4" count="7" type="stmt"/>
+      <line num="5" count="70" type="stmt"/>
+      <line num="6" count="70" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="12" type="stmt"/>
+      <line num="9" count="12" type="stmt"/>
+      <line num="11" count="58" type="stmt"/>
+      <line num="12" count="58" type="stmt"/>
+      <line num="13" count="58" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="2" type="stmt"/>
+      <line num="17" count="58" type="stmt"/>
+      <line num="21" count="7" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>

@@ -1,4 +1,4 @@
-const  pointsCount = require('../src/main.js')
+const pointsCount = require('../src/main.js')
 const { describe, expect, test } = require('@jest/globals')
 
 // eslint-disable-next-line no-undef
