@@ -24,16 +24,19 @@ git clone [linkDelRepositorio]
 npm install
 npm i -D mocha
 npm i -D chai
+
+npm install --save-dev jest
+
 ```
 
 - Para ejecutar el funcionamiento principal del programa y empezar el juego se ejecuta el siguiente comando en la terminal:
 ``` 
-
+npm run test
 ```
 
 - Para ejecutar las pruebas que se aplicaron al código utilizaremos el siguiente comando en la terminal:
 ``` 
-
+npm test -- --coverage
 ```
 
 # Creditos
