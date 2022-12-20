@@ -21,4 +21,6 @@ const pointsCount = (rolls) => {
   return score
 }
 
-export { pointsCount }
+module.exports = {
+  pointsCount
+}
